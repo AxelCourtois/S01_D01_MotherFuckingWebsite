@@ -1,0 +1,142 @@
+body{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    margin: 32px auto;
+    max-width: 800px;
+    padding: 16px;
+    line-height: 1.4;
+    text-align: justify;
+    color: white;
+    background-color: black;
+}
+
+body{
+    display: block;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+i{
+    font-style: italic;
+}
+
+.st{
+    margin-top: -1em;
+}
+
+.Fakepre{
+    font-family: monospace;
+    font-size: 0.9em;
+}
+
+.mfw{
+    color: red;
+}
+
+.grey{
+    color: #444;
+}
+
+.grey2{
+    color: #454545;
+}
+
+.wrong{
+    color: #db695d;
+    text-decoration: underline;
+}
+
+span.blue{
+    color: #00e;
+    cursor: not-allowed;
+}
+
+span.violet{
+    color: #551a8b;
+    cursor: not-allowed;
+}
+
+small{
+    font-size: .4em;
+}
+
+a:visited{
+    color: #ca1a70;
+}
+
+.chevre{
+    text-align: center;
+}
+
+.positioncol{
+    display: flex;
+}
+
+.left{
+    width: 200px;
+    margin-left: -30px;
+    margin-right: 170px;
+}
+
+figcaption{
+    display: block;
+    font-size: 0.7em;
+}
+
+
+/* COLOR CHANGEMENT DE COLOR */
+@keyframes changementCouleur {
+    0% {
+        color: #eb4747;
+    }
+    10% {
+        color: #ebb447;
+    }
+    20% {
+        color: #ebeb47;
+    }
+    30% {
+        color: #7eeb47;
+    }
+    40% {
+        color: #47eb8b;
+    }
+    50% {
+        color: #70eb47;
+    }
+    60% {
+        color: #4799eb;
+    }
+    70% {
+        color: #4747eb;
+    }
+    80% {
+        color: #5547eb;
+    }
+    90% {
+        color: #C247eb;
+    }
+    100% {
+        color: #eb477e;
+    }
+  }
+  
+  .color-rainbow {
+    animation: changementCouleur 4s linear infinite; /* 4s pour la durée totale de l'animation */
+  }
